@@ -41,3 +41,5 @@ auto                      vfat     /devices/platform/mt_usb*                    
 /dtbo                     emmc     /dev/block/platform/bootdevice/by-name/dtbo              flags=display=dtbo
 /vbmeta                   emmc     /dev/block/platform/bootdevice/by-name/vbmeta            flags=display=vbmeta
 /tkv                      emmc     /dev/block/platform/bootdevice/by-name/tkv               flags=display=tkv
+/external_sd              vfat     /dev/block/mmcblk1p1  /dev/block/mmcblk1                 flags=display="MicroSD";storage;wipeingui;removable;fsflags="utf8"
+
