@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X680D
+DEVICE_PATH := device/infinix/Infinix_X680D
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -24,7 +24,7 @@ TARGET_USES_64_BIT_BINDER := true
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Infinix-X680D
+TARGET_BOOTLOADER_BOARD_NAME := Infinix_X680D
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -44,7 +44,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := Infinix-X680D_defconfig
-TARGET_KERNEL_SOURCE := kernel/infinix/Infinix-X680D
+TARGET_KERNEL_SOURCE := kernel/infinix/Infinix_X680D
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
