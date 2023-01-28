@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=Infinix-X680D
+DEVICE=Infinix_X680D
 VENDOR=infinix
 
 # Load extract_utils and do some sanity checks
