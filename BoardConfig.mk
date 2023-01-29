@@ -102,5 +102,12 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_CRYPTO := true
-g
+
+TW_CRYPTO_FS_TYPE := "ext4"
+
+TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/bootdevice/by-name/userdata"
+
+TW_CRYPTO_MNT_POINT := "/data"
+
+TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,barrier=0,data=ordered"
 
