@@ -35,7 +35,7 @@
 /cache          ext4    /dev/block/platform/bootdevice/by-name/cache             flags=backup=1;wipeingui;wipeduringfactoryreset
 /tranfs          ext4     /dev/block/platform/bootdevice/by-name/tranfs            flags=display=tranfs
 /data           f2fs    /dev/block/platform/bootdevice/by-name/userdata          flags=encryptable=/dev/block/platform/bootdevice/by-name/metadata
-/system         ext4    /dev/block/mapper/system            
+/system         ext4    /dev/block/mapper/system            flags=display="System";logical
 /vendor         ext4    /dev/block/mapper/vendor            flags=display="Vendor";logical
 /product         ext4    /dev/block/mapper/product            flags=display="Product";logical
 /super_image   emmc    /dev/block/bootdevice/by-name/super                       flags=backup=1;display="Super"
